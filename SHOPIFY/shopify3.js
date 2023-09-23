@@ -1,0 +1,33 @@
+let ShopifyMonitor = require('./base.js');
+let monitors = [];
+monitors.push(new ShopifyMonitor("https://deadstock.ca", 'DEADSTOCK', 'CA'))
+monitors.push(new ShopifyMonitor("https://size.ca", 'SIZECA', 'CA'))
+monitors.push(new ShopifyMonitor("https://jdsports.ca", 'JDSPORTSCA', 'CA'))
+monitors.push(new ShopifyMonitor("https://nrml.ca", 'NRML', 'CA'))
+monitors.push(new ShopifyMonitor("https://shop.havenshop.com", 'HAVEN', 'CA'))
+monitors.push(new ShopifyMonitor("https://capsuletoronto.com", 'CAPSULE', 'CA'))
+monitors.push(new ShopifyMonitor("https://nomadshop.net", 'NOMAD', 'CA'))
+monitors.push(new ShopifyMonitor("https://theclosetinc.com", 'CLOSETINC', 'CA'))
+monitors.push(new ShopifyMonitor("https://courtsidesneakers.com", 'COURTSIDE', 'CA'))
+monitors.push(new ShopifyMonitor("https://shop.exclucitylife.com", 'EXCLUCITY', 'CA'))
+monitors.push(new ShopifyMonitor("https://momentumshop.ca", 'MOMENTUM', 'CA'))
+monitors.push(new ShopifyMonitor("https://lessoneseven.com", 'LESSONESEVEN', 'CA'))
+monitors.push(new ShopifyMonitor("https://cncpts.com", 'CNCPTS', 'US'))
+monitors.push(new ShopifyMonitor("https://gallery.canary---yellow.com", 'CANARYYELLOW', 'US'))
+monitors.push(new ShopifyMonitor("https://hoopsheaven.com.au", 'NONE', 'AU'))
+monitors.push(new ShopifyMonitor("https://usgstore.com.au", 'NONE', 'AU'))
+monitors.push(new ShopifyMonitor("https://creme321.com", 'NONE', 'US'))
+//monitors.push(new ShopifyMonitor("https://leafproxies.com", 'NONE'))
+monitors.push(new ShopifyMonitor("https://onenessboutique.com", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://manorphx.com", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://incu.com", 'NONE', 'AU'))
+monitors.push(new ShopifyMonitor("https://footzonenyc.com", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://fugitivetoys.com", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://concrete.nl", 'NONE', 'NL'))
+monitors.push(new ShopifyMonitor("https://cncpts.ae", 'NONE', 'AE'))
+monitors.push(new ShopifyMonitor("https://chronotoys.com", 'NONE'))
+monitors.push(new ShopifyMonitor("https://centre214.com", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://ddtstore.com", 'NONE', 'US'))
+for(let monitor of monitors) {
+    monitor.monitor();
+}

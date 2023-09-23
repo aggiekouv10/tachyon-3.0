@@ -1,0 +1,16 @@
+{
+  "Discord": {
+    "webhook": "https://discord.com/api/webhooks/857858020184031272/mEJYZPqhFS-ICgB5XxqtR3QYlrscxQ5feAigJ4oPMDOpFdjQOtMb6cyoWoYAkYVDR0rf"
+  },
+  "Twitter": {
+    "Keys": {
+      "consumer_key": "v1Fe8V9EUXhQnvXYqRRQzeK7P",
+      "consumer_secret": "VJFqmLgzCLECeIYHNCDDec8dvXKZ6HEAhDkhunLzhX0p2MO7eu",
+      "access_token": "1225098995485368321-RcRK5P67zlDEL9iljWrDt9w0VBSxnF",
+      "access_token_secret": "fb9nyJQLmaZkVHe8WTlcuHDUB75S880ihkrTdeyxcK9Wb"
+    },
+    "Accounts": [
+      "@Cybersole"
+    ]
+  }
+}

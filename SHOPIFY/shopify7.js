@@ -1,0 +1,40 @@
+let ShopifyMonitor = require('./base.js');
+let monitors = [];
+monitors.push(new ShopifyMonitor("https://leftfoot.com.sg", 'NONE', 'SG'))
+monitors.push(new ShopifyMonitor("https://noteshop.co.uk", 'NONE', 'UK'))
+monitors.push(new ShopifyMonitor("https://upriseskateshop.com", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://launch.starcowparis.com", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://lacquer.jp", 'NONE', 'JP'))
+monitors.push(new ShopifyMonitor("https://shop.goodasgoldshop.com", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://stush.com.mx", 'NONE', 'MX'))
+monitors.push(new ShopifyMonitor("https://kicktheory.com", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://zulusgames.com", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://solestop.com", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://laced.com.au", 'NONE', 'AU'))
+monitors.push(new ShopifyMonitor("https://thepremierstore.com", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://eastsidegolf.com", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://jbhifi.com.au", 'JBHIFI', 'AU'))
+monitors.push(new ShopifyMonitor("https://shop-us.doverstreetmarket.com", 'DSMUS', 'US'))
+monitors.push(new ShopifyMonitor("https://shop-sg.doverstreetmarket.com", 'DSMSG', 'SG'))
+monitors.push(new ShopifyMonitor("https://shop-jp.doverstreetmarket.com", 'DSMJP', 'JP'))
+monitors.push(new ShopifyMonitor("https://solefly.com", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://asphaltgold.com", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://millenniumshoes.com", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://likelihood.myshopify.com", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://uptherestore.com", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://wishatl.com", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://www.addictmiami.com", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://drifthouse.com", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://store.sony.com.my", 'NONE', 'MY'))
+monitors.push(new ShopifyMonitor("https://jetstore.com.mx", 'NONE', 'MX'))
+monitors.push(new ShopifyMonitor("https://capusa.nyc", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://ldrs1354.com", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://minmaxgames.com", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://crownminded.com", 'NONE', 'US'))
+monitors.push(new ShopifyMonitor("https://embassy.co.nz", 'NONE', 'NZ'))
+monitors.push(new ShopifyMonitor("https://hufworldwide.com", 'NONE', 'US'))
+//
+//
+for(let monitor of monitors) {
+    monitor.monitor();
+}
